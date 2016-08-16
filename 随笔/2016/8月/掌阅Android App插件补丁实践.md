@@ -285,7 +285,7 @@
 
  考虑到类的隔离性以及框架拓展性，[ZeusPlugin](https://github.com/iReaderAndroid/ZeusPlugin)目前使用的方案是第二种，根据类加载器的双亲委派模型，我们可以实现一套插件补丁类加载方案，如下图：
 
- ![类加载](./类加载.jpg)
+ ![类加载](类加载.jpg)
 
 >  1. 我们通过反射修改系统的ClassLoader为ZeusClassLoader，其内包含多个ZeusPluginClassLoader
 >  2. 每一个插件对应一个ZeusPluginClassLoader，当移除插件时则删除一个ZeusPluginClassLoader，加载一个插件则添加一个ZeusPluginClassLoader，
@@ -454,7 +454,7 @@ https://github.com/iReaderAndroid/ZeusPlugin
 
 ### 我的公众号
 
-![公众号](./qrcode_for_gh_2aebafd984be_258.jpg)
+![公众号](qrcode_for_gh_2aebafd984be_258.jpg)
 
 
 
