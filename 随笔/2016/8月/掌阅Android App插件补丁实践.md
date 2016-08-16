@@ -1,4 +1,4 @@
-## 掌阅Android App插件化和补丁实践
+## 掌阅Android App插件补丁实践
 
 
 
@@ -452,7 +452,7 @@
 
 https://github.com/iReaderAndroid/ZeusPlugin
 
-### 我的公众号
+### 我的微信公众号：AndroidExplore
 
 ![公众号](qrcode_for_gh_2aebafd984be_258.jpg)
 
